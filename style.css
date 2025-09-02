@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #fff5d7;
+    font-family: "Poppins";
+    display: flex;
+    justify-content: center;
+    padding: 60px;
+}
+
+.Reciepe-Container {
+    width: 800px;
+    background-color: #fff;
+    border-radius: 15px;   
+    padding: 35px;
+}
+
+.Recipe-Container .video-container iframe {
+    width: 100%;
+    height: 60vh;
+    border-radius: 15px;   
+}
+     
+.Reciepe-Container .Text-Container p{
+    font-size: 0.9rem;
+    margin-top: 10px;
+    color: #333;
+}
+
+/* == Preparetion Section == */
+.Reciepe-Container .Preparation-Container {
+    margin-top: 30px;
+    padding: 30px 40px;
+    background-color: #fcf1f8;
+    border-radius: 30px; 
+}
+
+.Preparation-Container h4{
+    color: red;
+}
+
+.Preparation-Container ul{
+    list-style: none;
+    margin-top: 10px;
+}
+
+.Preparation-Container ul li{
+    margin-bottom: 10px;
+}
+
+.Preparation-Container ul li, b{
+    font-size: 0.8rem;
+    display: flex;
+    align-items: center;
+    gap: 5px; 
+}
+
+.Preparation-Container ul li .total{
+   background-color: #daffcc;
+   padding: 5px 10px;
+   color: #2afd00;
+    border-radius: 10px;
+}
+
+.Preparation-Container ul li .blender{
+    background-color: #cccfff;
+    padding: 5px 10px;
+    color: #0011fd;
+    border-radius: 10px;
+}
+
+.Preparation-Container ul li .cooking{
+    background-color: #ffccff;
+    padding: 5px 10px;
+    color: #fd00a1;
+    border-radius: 10px;
+}
+
+
+/* == Ingredients Section == */
+.ingredient-container{
+    margin-top: 30px;
+    border-bottom: 1px solid #e6e2c0;
+}
+
+.ingredients-container h3{
+    color: #cc4545;
+}
+
+.ingredients-container ul{
+    list-style: none;
+   margin-top: 10px;
+}
+
+.ingredients-container ul li{
+    margin-bottom: 10px;
+    font-size: 0.8rem;
+    display: flex;
+    align-items: center;
+}
+
+.ingredients-container ul li span{
+    color: #cc4545;
+    font-size: 18px;
+}
+
+   
+/* == Instructions Section == */
+.instructions-container{
+    margin-top: 30px;
+}
+
+.instructions-container h3{
+    color: #cc4545;
+}
+
+.instructions-container ol{
+    margin-top: 10px;
+    padding-left: 10px;
+}
+
+.instructions-container ol li{
+    margin-bottom: 20px;
+    font-size: 0.8rem;
+    box-shadow: 0 2px 2px 2px rgb(0 ,0, 0,0.1);
+    background-color: #fff;
+    padding: 4px 9px;
+
+}
+
+.nutrition-container h2{
+    color:#cc4545
+}
+
+.nutrition-container p{
+    margin: 10px 0;
+    font-size: 0.8rem;
+}
+ 
+.nutrition-container .table .table-header{
+    display: flex;
+}
+
+.nutrition-container .table .table-header .item{
+    width: 100%;
+    background-color: #0011fd;
+    color: #fff;
+    padding: 12px; 
+    font-weight: 600;
+    border: 1px solid #b1b7ff;
+}
+
+.nutrition-container .table .table-data{
+    display: flex;
+    background-color: #fcf1f8;
+    color:#0011fd;
+}
+
+.nutrition-container .table .table-data .item{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #b1b7ff;
+} 
+
+    
+
+
+
+
+
+
